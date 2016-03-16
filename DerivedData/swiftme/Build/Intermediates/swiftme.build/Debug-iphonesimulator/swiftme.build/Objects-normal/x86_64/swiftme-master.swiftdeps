@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "7a7fbebf2b1c2617a7ebcec49071ab2b"
+build_time: [511247327, 578474000]
+inputs:
+  "/Users/georgeportillo/Documents/Personal/native/swiftme/swiftme/SinglePartViewController.swift": [511247323, 0]
+  "/Users/georgeportillo/Documents/Personal/native/swiftme/swiftme/PartTableViewController.swift": [510948169, 0]
+  "/Users/georgeportillo/Documents/Personal/native/swiftme/swiftme/MyTableViewCell.swift": [510974430, 0]
+  "/Users/georgeportillo/Documents/Personal/native/swiftme/swiftme/AppDelegate.swift": [511245077, 0]
+  "/Users/georgeportillo/Documents/Personal/native/swiftme/swiftme/Part.swift": [510974623, 0]
+  "/Users/georgeportillo/Documents/Personal/native/swiftme/swiftme/ViewController.swift": [511244748, 0]

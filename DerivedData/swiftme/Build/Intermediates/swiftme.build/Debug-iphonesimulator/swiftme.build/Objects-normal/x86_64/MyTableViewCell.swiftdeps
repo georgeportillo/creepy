@@ -1,0 +1,501 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MyTableViewCell"
+provides-nominal:
+- "C7swiftme15MyTableViewCell"
+provides-member:
+- ["C7swiftme15MyTableViewCell", ""]
+provides-dynamic-lookup:
+- "titleLabel"
+- "ImageHeight"
+- "backgroundImageView"
+- "setSelected"
+- "OffsetSpeed"
+- "offset"
+- "awakeFromNib"
+depends-top-level:
+- "CGPoint"
+- "UILabel"
+- "UIImageView"
+- "CGFloat"
+- "Bool"
+- "UITableViewCell"
+- "MyTableViewCell"
+- !private "CGRectOffset"
+depends-member:
+- !private ["PSs9AnyObject", "CGRectOffset"]
+- ["PSs9AnyObject", "ImageHeight"]
+- ["PSs9AnyObject", "OffsetSpeed"]
+- ["PSs9AnyObject", "awakeFromNib"]
+- ["PSs9AnyObject", "backgroundImageView"]
+- !private ["PSs9AnyObject", "bounds"]
+- !private ["PSs9AnyObject", "frame"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "offset"]
+- ["PSs9AnyObject", "setSelected"]
+- ["PSs9AnyObject", "titleLabel"]
+- ["PSs9AnyObject", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["PSs11CVarArgType", "CGRectOffset"]
+- ["PSs11CVarArgType", "ImageHeight"]
+- ["PSs11CVarArgType", "OffsetSpeed"]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- ["PSs11CVarArgType", "backgroundImageView"]
+- !private ["PSs11CVarArgType", "bounds"]
+- !private ["PSs11CVarArgType", "frame"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "offset"]
+- ["PSs11CVarArgType", "setSelected"]
+- ["PSs11CVarArgType", "titleLabel"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "CGRectOffset"]
+- ["PSs23CustomStringConvertible", "ImageHeight"]
+- ["PSs23CustomStringConvertible", "OffsetSpeed"]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- ["PSs23CustomStringConvertible", "backgroundImageView"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "offset"]
+- ["PSs23CustomStringConvertible", "setSelected"]
+- ["PSs23CustomStringConvertible", "titleLabel"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGRectOffset"]
+- ["PSs9Equatable", "ImageHeight"]
+- ["PSs9Equatable", "OffsetSpeed"]
+- ["PSs9Equatable", "awakeFromNib"]
+- ["PSs9Equatable", "backgroundImageView"]
+- !private ["PSs9Equatable", "bounds"]
+- !private ["PSs9Equatable", "frame"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "offset"]
+- ["PSs9Equatable", "setSelected"]
+- ["PSs9Equatable", "titleLabel"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CGRectOffset"]
+- ["PSs8Hashable", "ImageHeight"]
+- ["PSs8Hashable", "OffsetSpeed"]
+- ["PSs8Hashable", "awakeFromNib"]
+- ["PSs8Hashable", "backgroundImageView"]
+- !private ["PSs8Hashable", "bounds"]
+- !private ["PSs8Hashable", "frame"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "offset"]
+- ["PSs8Hashable", "setSelected"]
+- ["PSs8Hashable", "titleLabel"]
+- ["PSs8Hashable", ""]
+- ["C7swiftme15MyTableViewCell", "Bool"]
+- ["C7swiftme15MyTableViewCell", "CGFloat"]
+- ["C7swiftme15MyTableViewCell", "CGPoint"]
+- !private ["C7swiftme15MyTableViewCell", "CGRectOffset"]
+- ["C7swiftme15MyTableViewCell", "ImageHeight"]
+- ["C7swiftme15MyTableViewCell", "OffsetSpeed"]
+- ["C7swiftme15MyTableViewCell", "UIImageView"]
+- ["C7swiftme15MyTableViewCell", "UILabel"]
+- ["C7swiftme15MyTableViewCell", "awakeFromNib"]
+- ["C7swiftme15MyTableViewCell", "backgroundImageView"]
+- ["C7swiftme15MyTableViewCell", "deinit"]
+- ["C7swiftme15MyTableViewCell", "init"]
+- ["C7swiftme15MyTableViewCell", "offset"]
+- ["C7swiftme15MyTableViewCell", "setSelected"]
+- ["C7swiftme15MyTableViewCell", "titleLabel"]
+- !private ["PSo8NSCoding", "CGRectOffset"]
+- ["PSo8NSCoding", "ImageHeight"]
+- ["PSo8NSCoding", "OffsetSpeed"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "backgroundImageView"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "offset"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "titleLabel"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "CGRectOffset"]
+- ["CSo8NSObject", "ImageHeight"]
+- ["CSo8NSObject", "OffsetSpeed"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "backgroundImageView"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "offset"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "CGRectOffset"]
+- ["PSo16NSObjectProtocol", "ImageHeight"]
+- ["PSo16NSObjectProtocol", "OffsetSpeed"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "backgroundImageView"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "offset"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "titleLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "CGRectOffset"]
+- ["PSo29UIAccessibilityIdentification", "ImageHeight"]
+- ["PSo29UIAccessibilityIdentification", "OffsetSpeed"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "backgroundImageView"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "offset"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGRectOffset"]
+- ["PSo12UIAppearance", "ImageHeight"]
+- ["PSo12UIAppearance", "OffsetSpeed"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "backgroundImageView"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "frame"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "offset"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "titleLabel"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGRectOffset"]
+- ["PSo21UIAppearanceContainer", "ImageHeight"]
+- ["PSo21UIAppearanceContainer", "OffsetSpeed"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "backgroundImageView"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "offset"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "titleLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "CGRectOffset"]
+- ["PSo17UICoordinateSpace", "ImageHeight"]
+- ["PSo17UICoordinateSpace", "OffsetSpeed"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "backgroundImageView"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "offset"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "titleLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGRectOffset"]
+- ["PSo13UIDynamicItem", "ImageHeight"]
+- ["PSo13UIDynamicItem", "OffsetSpeed"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "backgroundImageView"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "offset"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "titleLabel"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGRectOffset"]
+- ["PSo18UIFocusEnvironment", "ImageHeight"]
+- ["PSo18UIFocusEnvironment", "OffsetSpeed"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "backgroundImageView"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "offset"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "titleLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "CGRectOffset"]
+- ["PSo27UIGestureRecognizerDelegate", "ImageHeight"]
+- ["PSo27UIGestureRecognizerDelegate", "OffsetSpeed"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "backgroundImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "offset"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "titleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo11UIImageView", "bounds"]
+- !private ["CSo11UIImageView", "frame"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGPoint"]
+- !private ["CSo11UIResponder", "CGRectOffset"]
+- ["CSo11UIResponder", "ImageHeight"]
+- ["CSo11UIResponder", "OffsetSpeed"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "backgroundImageView"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "offset"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "titleLabel"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "CGFloat"]
+- ["CSo15UITableViewCell", "CGPoint"]
+- !private ["CSo15UITableViewCell", "CGRectOffset"]
+- ["CSo15UITableViewCell", "ImageHeight"]
+- ["CSo15UITableViewCell", "OffsetSpeed"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "backgroundImageView"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "offset"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "titleLabel"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "CGRectOffset"]
+- ["PSo18UITraitEnvironment", "ImageHeight"]
+- ["PSo18UITraitEnvironment", "OffsetSpeed"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "backgroundImageView"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "offset"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "titleLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGPoint"]
+- !private ["CSo6UIView", "CGRectOffset"]
+- ["CSo6UIView", "ImageHeight"]
+- ["CSo6UIView", "OffsetSpeed"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "backgroundImageView"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "offset"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "titleLabel"]
+- !private ["PSs12_Reflectable", "CGRectOffset"]
+- ["PSs12_Reflectable", "ImageHeight"]
+- ["PSs12_Reflectable", "OffsetSpeed"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- ["PSs12_Reflectable", "backgroundImageView"]
+- !private ["PSs12_Reflectable", "bounds"]
+- !private ["PSs12_Reflectable", "frame"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "offset"]
+- ["PSs12_Reflectable", "setSelected"]
+- ["PSs12_Reflectable", "titleLabel"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C7swiftme15MyTableViewCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/swiftme/Bridging-Header.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADRewardBasedVideoAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADRewardBasedVideoAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdReward.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADSearchRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADSearchBannerView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADDynamicHeightSearchRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeContentAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeAppInstallAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeAdNotificationSource.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventNativeAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventNativeAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventInterstitialDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventInterstitial.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventExtras.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventBannerDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventBanner.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeCustomTemplateAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeContentAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAppInstallAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAdImage+Mediation.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAdImage.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdLoaderAdTypes.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAppEventDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdSizeDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPInterstitial.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPCustomRenderedAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPBannerView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeExpressAdViewDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeExpressAdView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMobileAds.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADInterstitialDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADInterstitial.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADInAppPurchase.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADExtras.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdLoaderDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdLoader.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCorrelatorAdLoaderOptions.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCorrelator.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADRequestError.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADInAppPurchaseDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADBannerViewDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADBannerView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdSize.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdNetworkExtras.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GoogleMobileAdsDefines.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-7.7.0/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-7.7.0/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareKit-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "3441a2b632547cc2a9e44fafd7cec0c1"

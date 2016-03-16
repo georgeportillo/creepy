@@ -7,29 +7,51 @@
 //
 
 import UIKit
+import Alamofire
+import GoogleMobileAds
+
+import Bolts
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FBSDKShareKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var dataArray = [Part]()
     
     let ImageHeight: CGFloat = 200.0
-    let OffsetSpeed: CGFloat = 25.0
+    let OffsetSpeed: CGFloat = 15.0
 
     @IBOutlet weak var storyTableView: UITableView!
+    @IBOutlet weak var bannerView: GADBannerView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let bobURL = NSURL(string: "http://bobisnothing.com/api/part")
+
+        let request = NSURLRequest(URL: bobURL!)
+        let config = NSURLSessionConfiguration.defaultSessionConfiguration()
+        let session = NSURLSession(configuration: config)
+
+        bannerView.adUnitID = "ca-app-pub-8807766526289453/7977953619"
+        bannerView.rootViewController = self
+        bannerView.loadRequest(GADRequest())
         
-        if let JSONData = NSData(contentsOfURL: bobURL!) {
-            let jsonResult: NSArray! = (try? NSJSONSerialization.JSONObjectWithData(JSONData, options:[])) as? NSArray
-            for item in jsonResult {
-                dataArray.append(Part(json: item as! NSDictionary))
+        self.automaticallyAdjustsScrollViewInsets = false
+        
+        let task = session.dataTaskWithRequest(request, completionHandler:{
+            data, response, err -> Void in
+            if let data = NSData(contentsOfURL: bobURL!) {
+                let jsonResult: NSArray! = (try? NSJSONSerialization.JSONObjectWithData(data, options:[])) as? NSArray
+                for item in jsonResult {
+                    self.dataArray.append(Part(json: item as! NSDictionary))
+                }
+                self.storyTableView.performSelectorOnMainThread(
+                    Selector("reloadData"), withObject: nil, waitUntilDone: true)
             }
-        }
-        
-        // Do any additional setup after loading the view, typically from a nib.
+        })
+        task.resume()
     }
 
     override func didReceiveMemoryWarning() {

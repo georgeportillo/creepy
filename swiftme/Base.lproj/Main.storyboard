@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zXc-0o-KaD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zXc-0o-KaD">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -29,18 +29,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="118.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is a label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUH-iV-qLR">
-                                                    <rect key="frame" x="8" y="7" width="359" height="47.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aUY-qN-3Ow">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="200" id="JXx-Hm-7wb"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is a label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUH-iV-qLR">
+                                                    <rect key="frame" x="8" y="7" width="359" height="48"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="aUY-qN-3Ow" firstAttribute="leading" secondItem="DcN-55-mFT" secondAttribute="leadingMargin" constant="-8" id="6Na-E8-KOw"/>
@@ -62,26 +62,37 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Dj1-ZZ-DJP"/>
                                 </connections>
                             </tableView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aUg-Bn-EQM" customClass="GADBannerView">
+                                <rect key="frame" x="27" y="617" width="320" height="50"/>
+                                <color key="backgroundColor" red="0.78561057940000001" green="0.85254441569999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ZnB-8e-Ocj"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Ley-Db-BsI" secondAttribute="trailing" constant="-20" id="0NQ-I1-J6h"/>
-                            <constraint firstItem="Ley-Db-BsI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-64" id="Jck-ah-4cK"/>
+                            <constraint firstItem="Ley-Db-BsI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Jck-ah-4cK"/>
+                            <constraint firstItem="aUg-Bn-EQM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="Ou2-gL-Eib"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aUg-Bn-EQM" secondAttribute="trailing" constant="8" id="Rkr-4e-LLE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ley-Db-BsI" secondAttribute="bottom" id="Vts-tQ-eiN"/>
                             <constraint firstItem="Ley-Db-BsI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="WYz-cn-FsP"/>
                             <constraint firstItem="Ley-Db-BsI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="k69-xu-iJd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aUg-Bn-EQM" secondAttribute="bottom" id="sAU-Zh-mot"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Landing" id="58B-y8-yFn"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="bannerView" destination="aUg-Bn-EQM" id="iFU-Lb-Zcj"/>
                         <outlet property="storyTableView" destination="Ley-Db-BsI" id="7i6-gb-ch7"/>
                         <segue destination="6yS-z1-cli" kind="show" identifier="singleStorySegue" id="jc9-HI-RjL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1116.5" y="376.5"/>
+            <point key="canvasLocation" x="1160.5" y="376.5"/>
         </scene>
         <!--Single Part View Controller-->
         <scene sceneID="gZZ-nT-Kd8">
@@ -98,23 +109,31 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Lorem ipsum" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mMx-JR-Mfj">
                                 <rect key="frame" x="0.0" y="64" width="375" height="46"/>
                                 <color key="backgroundColor" red="1" green="0.77739124120000003" blue="0.196136584" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="p1C-o2-CEW"/>
-                                </constraints>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kdN-Gh-R1i" customClass="GADBannerView">
+                                <rect key="frame" x="27" y="617" width="320" height="50"/>
+                                <color key="backgroundColor" red="0.78561057940000001" green="0.85254441569999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="yhW-Om-aPQ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="mMx-JR-Mfj" firstAttribute="leading" secondItem="HRV-qc-3jh" secondAttribute="leadingMargin" constant="-20" id="Bb5-B6-tUU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kdN-Gh-R1i" secondAttribute="trailing" constant="8" id="HhF-Jv-6Ih"/>
                             <constraint firstItem="mMx-JR-Mfj" firstAttribute="top" secondItem="Q7c-bi-ge3" secondAttribute="bottom" id="KOZ-PV-SfV"/>
+                            <constraint firstItem="X7s-qG-bhi" firstAttribute="top" secondItem="kdN-Gh-R1i" secondAttribute="bottom" id="SmD-Hp-gHk"/>
+                            <constraint firstItem="kdN-Gh-R1i" firstAttribute="leading" secondItem="HRV-qc-3jh" secondAttribute="leadingMargin" constant="7" id="f7q-7k-RuI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="mMx-JR-Mfj" secondAttribute="trailing" constant="-20" id="sD4-SJ-hHX"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="bannerView" destination="kdN-Gh-R1i" id="QdT-Yp-MDY"/>
                         <outlet property="singlePartTextView" destination="mMx-JR-Mfj" id="T3e-cD-cUe"/>
                     </connections>
                 </viewController>

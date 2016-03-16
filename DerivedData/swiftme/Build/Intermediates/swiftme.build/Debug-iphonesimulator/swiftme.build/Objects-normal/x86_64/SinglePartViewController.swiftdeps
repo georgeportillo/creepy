@@ -1,0 +1,1015 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SinglePartViewController"
+provides-nominal:
+- "C7swiftme24SinglePartViewController"
+provides-member:
+- ["C7swiftme24SinglePartViewController", ""]
+provides-dynamic-lookup:
+- "singlePartTextView"
+- "loginButtonDidLogOut"
+- "didReceiveMemoryWarning"
+- "loginButton"
+- "bannerView"
+- "viewDidLoad"
+depends-top-level:
+- !private "BooleanLiteralType"
+- !private "FBSDKGraphRequest"
+- "FBSDKLoginButtonDelegate"
+- !private "Void"
+- "FBSDKLoginButton"
+- "FBSDKLoginManagerLoginResult"
+- "NSError"
+- "GADBannerView"
+- !private "UIEdgeInsetsMake"
+- "UITextView"
+- "SinglePartViewController"
+- !private "Array"
+- !private "GADRequest"
+- !private "Firebase"
+- !private "FBSDKAccessToken"
+- !private "StringLiteralType"
+- !private "=="
+- !private "!="
+- !private "print"
+- "Part"
+- "UIViewController"
+depends-member:
+- !private ["PSs9AnyObject", "FBSDKAccessToken"]
+- !private ["PSs9AnyObject", "FBSDKGraphRequest"]
+- !private ["PSs9AnyObject", "FBSDKLoginButton"]
+- !private ["PSs9AnyObject", "Firebase"]
+- !private ["PSs9AnyObject", "GADRequest"]
+- !private ["PSs9AnyObject", "UIEdgeInsetsMake"]
+- !private ["PSs9AnyObject", "adUnitID"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "automaticallyAdjustsScrollViewInsets"]
+- ["PSs9AnyObject", "bannerView"]
+- !private ["PSs9AnyObject", "center"]
+- !private ["PSs9AnyObject", "contentInset"]
+- !private ["PSs9AnyObject", "currentAccessToken"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "grantedPermissions"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isCancelled"]
+- !private ["PSs9AnyObject", "loadRequest"]
+- ["PSs9AnyObject", "loginButton"]
+- ["PSs9AnyObject", "loginButtonDidLogOut"]
+- ["PSs9AnyObject", "loginButtonWillLogin"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "readPermissions"]
+- !private ["PSs9AnyObject", "rootViewController"]
+- !private ["PSs9AnyObject", "setValue"]
+- ["PSs9AnyObject", "singlePartData"]
+- ["PSs9AnyObject", "singlePartTextView"]
+- !private ["PSs9AnyObject", "startWithCompletionHandler"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "title"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "contains"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "FBSDKAccessToken"]
+- !private ["PSs11CVarArgType", "FBSDKGraphRequest"]
+- !private ["PSs11CVarArgType", "FBSDKLoginButton"]
+- !private ["PSs11CVarArgType", "Firebase"]
+- !private ["PSs11CVarArgType", "GADRequest"]
+- !private ["PSs11CVarArgType", "UIEdgeInsetsMake"]
+- !private ["PSs11CVarArgType", "adUnitID"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "automaticallyAdjustsScrollViewInsets"]
+- ["PSs11CVarArgType", "bannerView"]
+- !private ["PSs11CVarArgType", "center"]
+- !private ["PSs11CVarArgType", "contentInset"]
+- !private ["PSs11CVarArgType", "currentAccessToken"]
+- !private ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "grantedPermissions"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isCancelled"]
+- !private ["PSs11CVarArgType", "loadRequest"]
+- ["PSs11CVarArgType", "loginButton"]
+- ["PSs11CVarArgType", "loginButtonDidLogOut"]
+- ["PSs11CVarArgType", "loginButtonWillLogin"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "readPermissions"]
+- !private ["PSs11CVarArgType", "rootViewController"]
+- !private ["PSs11CVarArgType", "setValue"]
+- ["PSs11CVarArgType", "singlePartData"]
+- ["PSs11CVarArgType", "singlePartTextView"]
+- !private ["PSs11CVarArgType", "startWithCompletionHandler"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "contains"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "contains"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "FBSDKAccessToken"]
+- !private ["PSs23CustomStringConvertible", "FBSDKGraphRequest"]
+- !private ["PSs23CustomStringConvertible", "FBSDKLoginButton"]
+- !private ["PSs23CustomStringConvertible", "Firebase"]
+- !private ["PSs23CustomStringConvertible", "GADRequest"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "UIEdgeInsetsMake"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "adUnitID"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "automaticallyAdjustsScrollViewInsets"]
+- ["PSs23CustomStringConvertible", "bannerView"]
+- !private ["PSs23CustomStringConvertible", "center"]
+- !private ["PSs23CustomStringConvertible", "contains"]
+- !private ["PSs23CustomStringConvertible", "contentInset"]
+- !private ["PSs23CustomStringConvertible", "currentAccessToken"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "grantedPermissions"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isCancelled"]
+- !private ["PSs23CustomStringConvertible", "loadRequest"]
+- ["PSs23CustomStringConvertible", "loginButton"]
+- ["PSs23CustomStringConvertible", "loginButtonDidLogOut"]
+- ["PSs23CustomStringConvertible", "loginButtonWillLogin"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "readPermissions"]
+- !private ["PSs23CustomStringConvertible", "rootViewController"]
+- !private ["PSs23CustomStringConvertible", "setValue"]
+- ["PSs23CustomStringConvertible", "singlePartData"]
+- ["PSs23CustomStringConvertible", "singlePartTextView"]
+- !private ["PSs23CustomStringConvertible", "startWithCompletionHandler"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "FBSDKAccessToken"]
+- !private ["PSs9Equatable", "FBSDKGraphRequest"]
+- !private ["PSs9Equatable", "FBSDKLoginButton"]
+- !private ["PSs9Equatable", "Firebase"]
+- !private ["PSs9Equatable", "GADRequest"]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "UIEdgeInsetsMake"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "adUnitID"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "automaticallyAdjustsScrollViewInsets"]
+- ["PSs9Equatable", "bannerView"]
+- !private ["PSs9Equatable", "center"]
+- !private ["PSs9Equatable", "contains"]
+- !private ["PSs9Equatable", "contentInset"]
+- !private ["PSs9Equatable", "currentAccessToken"]
+- !private ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "grantedPermissions"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isCancelled"]
+- !private ["PSs9Equatable", "loadRequest"]
+- ["PSs9Equatable", "loginButton"]
+- ["PSs9Equatable", "loginButtonDidLogOut"]
+- ["PSs9Equatable", "loginButtonWillLogin"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "readPermissions"]
+- !private ["PSs9Equatable", "rootViewController"]
+- !private ["PSs9Equatable", "setValue"]
+- ["PSs9Equatable", "singlePartData"]
+- ["PSs9Equatable", "singlePartTextView"]
+- !private ["PSs9Equatable", "startWithCompletionHandler"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "view"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["CSo16FBSDKAccessToken", "currentAccessToken"]
+- !private ["CSo16FBSDKAccessToken", "deinit"]
+- !private ["CSo11FBSDKButton", "center"]
+- !private ["CSo11FBSDKButton", "delegate"]
+- !private ["CSo11FBSDKButton", "init"]
+- !private ["CSo11FBSDKButton", "readPermissions"]
+- !private ["PSo12FBSDKCopying", "currentAccessToken"]
+- !private ["CSo17FBSDKGraphRequest", "init"]
+- !private ["CSo17FBSDKGraphRequest", "startWithCompletionHandler"]
+- !private ["CSo16FBSDKLoginButton", "center"]
+- !private ["CSo16FBSDKLoginButton", "delegate"]
+- !private ["CSo16FBSDKLoginButton", "init"]
+- !private ["CSo16FBSDKLoginButton", "readPermissions"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FBSDKAccessToken"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FBSDKGraphRequest"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FBSDKLoginButton"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "Firebase"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "GADRequest"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "UIEdgeInsetsMake"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "automaticallyAdjustsScrollViewInsets"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "bannerView"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButton"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButtonDidLogOut"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButtonWillLogin"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "print"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "singlePartData"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "singlePartTextView"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "view"]
+- ["PSo24FBSDKLoginButtonDelegate", ""]
+- !private ["CSo28FBSDKLoginManagerLoginResult", "grantedPermissions"]
+- !private ["CSo28FBSDKLoginManagerLoginResult", "isCancelled"]
+- !private ["CSo6FQuery", "init"]
+- !private ["CSo6FQuery", "setValue"]
+- !private ["CSo8Firebase", "init"]
+- !private ["CSo8Firebase", "setValue"]
+- !private ["Sf", "deinit"]
+- !private ["CSo13GADBannerView", "adUnitID"]
+- !private ["CSo13GADBannerView", "loadRequest"]
+- !private ["CSo13GADBannerView", "rootViewController"]
+- !private ["CSo10GADRequest", "init"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "FBSDKAccessToken"]
+- !private ["PSs8Hashable", "FBSDKGraphRequest"]
+- !private ["PSs8Hashable", "FBSDKLoginButton"]
+- !private ["PSs8Hashable", "Firebase"]
+- !private ["PSs8Hashable", "GADRequest"]
+- !private ["PSs8Hashable", "Generator"]
+- !private ["PSs8Hashable", "UIEdgeInsetsMake"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "adUnitID"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "automaticallyAdjustsScrollViewInsets"]
+- ["PSs8Hashable", "bannerView"]
+- !private ["PSs8Hashable", "center"]
+- !private ["PSs8Hashable", "contains"]
+- !private ["PSs8Hashable", "contentInset"]
+- !private ["PSs8Hashable", "currentAccessToken"]
+- !private ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "grantedPermissions"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isCancelled"]
+- !private ["PSs8Hashable", "loadRequest"]
+- ["PSs8Hashable", "loginButton"]
+- ["PSs8Hashable", "loginButtonDidLogOut"]
+- ["PSs8Hashable", "loginButtonWillLogin"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "readPermissions"]
+- !private ["PSs8Hashable", "rootViewController"]
+- !private ["PSs8Hashable", "setValue"]
+- ["PSs8Hashable", "singlePartData"]
+- ["PSs8Hashable", "singlePartTextView"]
+- !private ["PSs8Hashable", "startWithCompletionHandler"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "contains"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "FBSDKAccessToken"]
+- !private ["PSo8NSCoding", "FBSDKGraphRequest"]
+- !private ["PSo8NSCoding", "FBSDKLoginButton"]
+- !private ["PSo8NSCoding", "Firebase"]
+- !private ["PSo8NSCoding", "GADRequest"]
+- !private ["PSo8NSCoding", "UIEdgeInsetsMake"]
+- !private ["PSo8NSCoding", "adUnitID"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "automaticallyAdjustsScrollViewInsets"]
+- ["PSo8NSCoding", "bannerView"]
+- !private ["PSo8NSCoding", "center"]
+- !private ["PSo8NSCoding", "contentInset"]
+- !private ["PSo8NSCoding", "currentAccessToken"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "loadRequest"]
+- ["PSo8NSCoding", "loginButton"]
+- ["PSo8NSCoding", "loginButtonDidLogOut"]
+- ["PSo8NSCoding", "loginButtonWillLogin"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "readPermissions"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- ["PSo8NSCoding", "singlePartData"]
+- ["PSo8NSCoding", "singlePartTextView"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "currentAccessToken"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKAccessToken"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKGraphRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKLoginButton"]
+- !private ["PSo26NSExtensionRequestHandling", "Firebase"]
+- !private ["PSo26NSExtensionRequestHandling", "GADRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "UIEdgeInsetsMake"]
+- !private ["PSo26NSExtensionRequestHandling", "automaticallyAdjustsScrollViewInsets"]
+- ["PSo26NSExtensionRequestHandling", "bannerView"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginButton"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonDidLogOut"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonWillLogin"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "singlePartData"]
+- ["PSo26NSExtensionRequestHandling", "singlePartTextView"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "FBSDKAccessToken"]
+- !private ["CSo8NSObject", "FBSDKGraphRequest"]
+- ["CSo8NSObject", "FBSDKLoginButton"]
+- ["CSo8NSObject", "FBSDKLoginManagerLoginResult"]
+- !private ["CSo8NSObject", "Firebase"]
+- ["CSo8NSObject", "GADBannerView"]
+- !private ["CSo8NSObject", "GADRequest"]
+- ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "Part"]
+- !private ["CSo8NSObject", "UIEdgeInsetsMake"]
+- ["CSo8NSObject", "UITextView"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "adUnitID"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "automaticallyAdjustsScrollViewInsets"]
+- ["CSo8NSObject", "bannerView"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "contentInset"]
+- !private ["CSo8NSObject", "currentAccessToken"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "grantedPermissions"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isCancelled"]
+- !private ["CSo8NSObject", "loadRequest"]
+- ["CSo8NSObject", "loginButton"]
+- ["CSo8NSObject", "loginButtonDidLogOut"]
+- ["CSo8NSObject", "loginButtonWillLogin"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "readPermissions"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "singlePartData"]
+- ["CSo8NSObject", "singlePartTextView"]
+- !private ["CSo8NSObject", "startWithCompletionHandler"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAccessToken"]
+- !private ["PSo16NSObjectProtocol", "FBSDKGraphRequest"]
+- !private ["PSo16NSObjectProtocol", "FBSDKLoginButton"]
+- !private ["PSo16NSObjectProtocol", "Firebase"]
+- !private ["PSo16NSObjectProtocol", "GADRequest"]
+- !private ["PSo16NSObjectProtocol", "UIEdgeInsetsMake"]
+- !private ["PSo16NSObjectProtocol", "adUnitID"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "automaticallyAdjustsScrollViewInsets"]
+- ["PSo16NSObjectProtocol", "bannerView"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "contentInset"]
+- !private ["PSo16NSObjectProtocol", "currentAccessToken"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "grantedPermissions"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isCancelled"]
+- !private ["PSo16NSObjectProtocol", "loadRequest"]
+- ["PSo16NSObjectProtocol", "loginButton"]
+- ["PSo16NSObjectProtocol", "loginButtonDidLogOut"]
+- ["PSo16NSObjectProtocol", "loginButtonWillLogin"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "readPermissions"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "singlePartData"]
+- ["PSo16NSObjectProtocol", "singlePartTextView"]
+- !private ["PSo16NSObjectProtocol", "startWithCompletionHandler"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "currentAccessToken"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["C7swiftme4Part", "title"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "contains"]
+- !private ["VSs3Set", "Generator"]
+- !private ["VSs3Set", "contains"]
+- !private ["VSs12SetGenerator", "Element"]
+- !private ["C7swiftme24SinglePartViewController", "FBSDKAccessToken"]
+- !private ["C7swiftme24SinglePartViewController", "FBSDKGraphRequest"]
+- ["C7swiftme24SinglePartViewController", "FBSDKLoginButton"]
+- ["C7swiftme24SinglePartViewController", "FBSDKLoginManagerLoginResult"]
+- !private ["C7swiftme24SinglePartViewController", "Firebase"]
+- ["C7swiftme24SinglePartViewController", "GADBannerView"]
+- !private ["C7swiftme24SinglePartViewController", "GADRequest"]
+- ["C7swiftme24SinglePartViewController", "NSError"]
+- ["C7swiftme24SinglePartViewController", "Part"]
+- !private ["C7swiftme24SinglePartViewController", "UIEdgeInsetsMake"]
+- ["C7swiftme24SinglePartViewController", "UITextView"]
+- !private ["C7swiftme24SinglePartViewController", "Void"]
+- !private ["C7swiftme24SinglePartViewController", "automaticallyAdjustsScrollViewInsets"]
+- ["C7swiftme24SinglePartViewController", "bannerView"]
+- ["C7swiftme24SinglePartViewController", "deinit"]
+- ["C7swiftme24SinglePartViewController", "didReceiveMemoryWarning"]
+- ["C7swiftme24SinglePartViewController", "init"]
+- ["C7swiftme24SinglePartViewController", "loginButton"]
+- ["C7swiftme24SinglePartViewController", "loginButtonDidLogOut"]
+- ["C7swiftme24SinglePartViewController", "loginButtonWillLogin"]
+- !private ["C7swiftme24SinglePartViewController", "print"]
+- ["C7swiftme24SinglePartViewController", "singlePartData"]
+- ["C7swiftme24SinglePartViewController", "singlePartTextView"]
+- !private ["C7swiftme24SinglePartViewController", "view"]
+- ["C7swiftme24SinglePartViewController", "viewDidLoad"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "adUnitID"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- !private ["PSo29UIAccessibilityIdentification", "contentInset"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "loadRequest"]
+- !private ["PSo29UIAccessibilityIdentification", "readPermissions"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "adUnitID"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "center"]
+- !private ["PSo12UIAppearance", "contentInset"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "loadRequest"]
+- !private ["PSo12UIAppearance", "readPermissions"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKAccessToken"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKGraphRequest"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKLoginButton"]
+- !private ["PSo21UIAppearanceContainer", "Firebase"]
+- !private ["PSo21UIAppearanceContainer", "GADRequest"]
+- !private ["PSo21UIAppearanceContainer", "UIEdgeInsetsMake"]
+- !private ["PSo21UIAppearanceContainer", "adUnitID"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "automaticallyAdjustsScrollViewInsets"]
+- ["PSo21UIAppearanceContainer", "bannerView"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- !private ["PSo21UIAppearanceContainer", "contentInset"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "loadRequest"]
+- ["PSo21UIAppearanceContainer", "loginButton"]
+- ["PSo21UIAppearanceContainer", "loginButtonDidLogOut"]
+- ["PSo21UIAppearanceContainer", "loginButtonWillLogin"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "readPermissions"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- ["PSo21UIAppearanceContainer", "singlePartData"]
+- ["PSo21UIAppearanceContainer", "singlePartTextView"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "center"]
+- !private ["CSo8UIButton", "delegate"]
+- !private ["CSo8UIButton", "init"]
+- !private ["CSo8UIButton", "readPermissions"]
+- !private ["PSo18UIContentContainer", "FBSDKAccessToken"]
+- !private ["PSo18UIContentContainer", "FBSDKGraphRequest"]
+- !private ["PSo18UIContentContainer", "FBSDKLoginButton"]
+- !private ["PSo18UIContentContainer", "Firebase"]
+- !private ["PSo18UIContentContainer", "GADRequest"]
+- !private ["PSo18UIContentContainer", "UIEdgeInsetsMake"]
+- !private ["PSo18UIContentContainer", "automaticallyAdjustsScrollViewInsets"]
+- ["PSo18UIContentContainer", "bannerView"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginButton"]
+- ["PSo18UIContentContainer", "loginButtonDidLogOut"]
+- ["PSo18UIContentContainer", "loginButtonWillLogin"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "singlePartData"]
+- ["PSo18UIContentContainer", "singlePartTextView"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "center"]
+- !private ["CSo9UIControl", "delegate"]
+- !private ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "readPermissions"]
+- !private ["PSo17UICoordinateSpace", "adUnitID"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- !private ["PSo17UICoordinateSpace", "contentInset"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "loadRequest"]
+- !private ["PSo17UICoordinateSpace", "readPermissions"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "adUnitID"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "contentInset"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "loadRequest"]
+- !private ["PSo13UIDynamicItem", "readPermissions"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKGraphRequest"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKLoginButton"]
+- !private ["PSo18UIFocusEnvironment", "Firebase"]
+- !private ["PSo18UIFocusEnvironment", "GADRequest"]
+- !private ["PSo18UIFocusEnvironment", "UIEdgeInsetsMake"]
+- !private ["PSo18UIFocusEnvironment", "adUnitID"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "automaticallyAdjustsScrollViewInsets"]
+- ["PSo18UIFocusEnvironment", "bannerView"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- !private ["PSo18UIFocusEnvironment", "contentInset"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "loadRequest"]
+- ["PSo18UIFocusEnvironment", "loginButton"]
+- ["PSo18UIFocusEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UIFocusEnvironment", "loginButtonWillLogin"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "readPermissions"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- ["PSo18UIFocusEnvironment", "singlePartData"]
+- ["PSo18UIFocusEnvironment", "singlePartTextView"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "contentInset"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "FBSDKAccessToken"]
+- !private ["CSo11UIResponder", "FBSDKGraphRequest"]
+- ["CSo11UIResponder", "FBSDKLoginButton"]
+- ["CSo11UIResponder", "FBSDKLoginManagerLoginResult"]
+- !private ["CSo11UIResponder", "Firebase"]
+- ["CSo11UIResponder", "GADBannerView"]
+- !private ["CSo11UIResponder", "GADRequest"]
+- ["CSo11UIResponder", "NSError"]
+- ["CSo11UIResponder", "Part"]
+- !private ["CSo11UIResponder", "UIEdgeInsetsMake"]
+- ["CSo11UIResponder", "UITextView"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "adUnitID"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "automaticallyAdjustsScrollViewInsets"]
+- ["CSo11UIResponder", "bannerView"]
+- !private ["CSo11UIResponder", "center"]
+- !private ["CSo11UIResponder", "contentInset"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "loadRequest"]
+- ["CSo11UIResponder", "loginButton"]
+- ["CSo11UIResponder", "loginButtonDidLogOut"]
+- ["CSo11UIResponder", "loginButtonWillLogin"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "readPermissions"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- ["CSo11UIResponder", "singlePartData"]
+- ["CSo11UIResponder", "singlePartTextView"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo12UIScrollView", "contentInset"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["PSo16UIStateRestoring", "FBSDKAccessToken"]
+- !private ["PSo16UIStateRestoring", "FBSDKGraphRequest"]
+- !private ["PSo16UIStateRestoring", "FBSDKLoginButton"]
+- !private ["PSo16UIStateRestoring", "Firebase"]
+- !private ["PSo16UIStateRestoring", "GADRequest"]
+- !private ["PSo16UIStateRestoring", "UIEdgeInsetsMake"]
+- !private ["PSo16UIStateRestoring", "automaticallyAdjustsScrollViewInsets"]
+- ["PSo16UIStateRestoring", "bannerView"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginButton"]
+- ["PSo16UIStateRestoring", "loginButtonDidLogOut"]
+- ["PSo16UIStateRestoring", "loginButtonWillLogin"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "singlePartData"]
+- ["PSo16UIStateRestoring", "singlePartTextView"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo11UITextInput", "contentInset"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "contentInset"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "contentInset"]
+- !private ["CSo10UITextView", "text"]
+- !private ["PSo18UITraitEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UITraitEnvironment", "FBSDKGraphRequest"]
+- !private ["PSo18UITraitEnvironment", "FBSDKLoginButton"]
+- !private ["PSo18UITraitEnvironment", "Firebase"]
+- !private ["PSo18UITraitEnvironment", "GADRequest"]
+- !private ["PSo18UITraitEnvironment", "UIEdgeInsetsMake"]
+- !private ["PSo18UITraitEnvironment", "adUnitID"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "automaticallyAdjustsScrollViewInsets"]
+- ["PSo18UITraitEnvironment", "bannerView"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- !private ["PSo18UITraitEnvironment", "contentInset"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "loadRequest"]
+- ["PSo18UITraitEnvironment", "loginButton"]
+- ["PSo18UITraitEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UITraitEnvironment", "loginButtonWillLogin"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "readPermissions"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- ["PSo18UITraitEnvironment", "singlePartData"]
+- ["PSo18UITraitEnvironment", "singlePartTextView"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "adUnitID"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "center"]
+- !private ["CSo6UIView", "contentInset"]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "loadRequest"]
+- !private ["CSo6UIView", "readPermissions"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "FBSDKAccessToken"]
+- !private ["CSo16UIViewController", "FBSDKGraphRequest"]
+- ["CSo16UIViewController", "FBSDKLoginButton"]
+- ["CSo16UIViewController", "FBSDKLoginManagerLoginResult"]
+- !private ["CSo16UIViewController", "Firebase"]
+- ["CSo16UIViewController", "GADBannerView"]
+- !private ["CSo16UIViewController", "GADRequest"]
+- ["CSo16UIViewController", "NSError"]
+- ["CSo16UIViewController", "Part"]
+- !private ["CSo16UIViewController", "UIEdgeInsetsMake"]
+- ["CSo16UIViewController", "UITextView"]
+- !private ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "automaticallyAdjustsScrollViewInsets"]
+- ["CSo16UIViewController", "bannerView"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginButton"]
+- ["CSo16UIViewController", "loginButtonDidLogOut"]
+- ["CSo16UIViewController", "loginButtonWillLogin"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "singlePartData"]
+- ["CSo16UIViewController", "singlePartTextView"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "contains"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "adUnitID"]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "center"]
+- !private ["PSs12_Reflectable", "contains"]
+- !private ["PSs12_Reflectable", "contentInset"]
+- !private ["PSs12_Reflectable", "delegate"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "loadRequest"]
+- !private ["PSs12_Reflectable", "readPermissions"]
+- !private ["PSs12_Reflectable", "rootViewController"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "CSo16FBSDKAccessToken"
+- !private "CSo11FBSDKButton"
+- !private "PSo12FBSDKCopying"
+- !private "CSo17FBSDKGraphRequest"
+- !private "CSo16FBSDKLoginButton"
+- "PSo24FBSDKLoginButtonDelegate"
+- !private "CSo28FBSDKLoginManagerLoginResult"
+- !private "CSo6FQuery"
+- !private "CSo8Firebase"
+- !private "Sf"
+- !private "CSo13GADBannerView"
+- !private "CSo10GADRequest"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "C7swiftme4Part"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "VSs3Set"
+- !private "VSs12SetGenerator"
+- "C7swiftme24SinglePartViewController"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo16UIStateRestoring"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/swiftme/Bridging-Header.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADRewardBasedVideoAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADRewardBasedVideoAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdReward.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADSearchRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADSearchBannerView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADDynamicHeightSearchRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeContentAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeAppInstallAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeAdNotificationSource.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMediatedNativeAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventNativeAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventNativeAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventInterstitialDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventInterstitial.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventExtras.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventBannerDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCustomEventBanner.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeCustomTemplateAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeContentAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAppInstallAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAdImage+Mediation.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAdImage.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdLoaderAdTypes.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAppEventDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdSizeDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPInterstitial.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPCustomRenderedAd.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/DFPBannerView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeExpressAdViewDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADNativeExpressAdView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADMobileAds.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADInterstitialDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADInterstitial.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADInAppPurchase.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADExtras.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdLoaderDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdLoader.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCorrelatorAdLoaderOptions.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADCorrelator.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADRequestError.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADRequest.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADInAppPurchaseDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADBannerViewDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADBannerView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdSize.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdNetworkExtras.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GADAdDelegate.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Headers/Public/Google-Mobile-Ads-SDK/GoogleMobileAds/GoogleMobileAdsDefines.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-7.7.0/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/Pods/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-7.7.0/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareKit-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/georgeportillo/Documents/Personal/native/swiftme/DerivedData/swiftme/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "1087e4b9ea62c47b2330711b399d930f"
